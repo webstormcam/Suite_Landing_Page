@@ -5,12 +5,13 @@
 
 :root {
     --dark-color: #172339;
+    --grey: #49566D;
+    --white: #fff;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 100%;
     padding: 1rem;
     padding-top: 2rem;
@@ -33,4 +34,45 @@ header {
     color: var(--dark-color);
     font-family: 'Epilogue', sans-serif;
     font-weight: bold;
+}
+
+
+main {
+    margin-top: 5rem;
+}
+
+#solution {
+    position: relative;
+}
+
+h1 {
+    font-size: 38px;
+    color: var(--dark-color);
+    line-height: 3rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#curved_line {
+    position: absolute;
+    width: 10rem;
+    top: -2rem;
+    left: 9.5rem;
+}
+
+.top-text {
+    line-height: 1.9rem;
+    font-size: 1rem;
+    color: var(--grey);
+    margin-top: 2rem;
+}
+
+.main-button {
+    margin-top: 1rem;
+    display: inline-block;
+    color: var(--white);
+    background-color: var(--dark-color);
+    padding: 1.2rem 2rem 1.2rem 2rem;
 }
