@@ -46,6 +46,16 @@ main {
     flex-direction: column;
 }
 
+#img-section {
+    width: 100%;
+    height: 240px;
+    background-image: url('imgs/image-hero-landscape.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+
 #solution {
     position: relative;
 }
