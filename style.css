@@ -130,6 +130,11 @@ h1 {
     }
 
     body {
+        display: flex;
+        align-items: center;
+    }
+
+    #content {
         max-width: 800px;
     }
 }
