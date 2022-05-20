@@ -105,6 +105,7 @@ h1 {
     #img-section {
         height: 482px;
         background-image: url('imgs/image-hero-portrait@2x.png');
+        background-position: bottom;
         margin-top: 0rem;
         position: relative;
         z-index: 0;
