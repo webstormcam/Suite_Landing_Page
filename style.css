@@ -41,6 +41,11 @@ main {
     margin-top: 5rem;
 }
 
+#words_img {
+    display: flex;
+    flex-direction: column;
+}
+
 #solution {
     position: relative;
 }
