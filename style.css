@@ -126,7 +126,7 @@ h1 {
     #curved_line {
         position: absolute;
         width: 14rem;
-        top: -9rem;
+        top: -4.8rem;
         left: 15rem;
         z-index: 400;
     }
@@ -134,22 +134,30 @@ h1 {
     body {
         display: flex;
         align-items: center;
+        padding: 1.2rem;
     }
 
     #content {
-        max-width: 800px;
+        max-width: 778px;
+        padding: 0.8rem;
     }
 
     .top-text {
         margin-top: 7rem;
         margin-bottom: 2rem;
+
+
+    }
+
+    .top-text {
+        padding-right: 3rem;
     }
 
     #solution {
-        width: 50%;
+        width: 60%;
     }
 
     #img-section {
-        width: 40%;
+        width: 45%;
     }
 }
