@@ -95,6 +95,36 @@ h1 {
     padding: 1.2rem 2rem 1.2rem 2rem;
 }
 
+#stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.stat {
+    text-align: center;
+    margin-top: 2rem;
+
+
+}
+
+.stat p {
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--dark-color);
+
+}
+
+.stat span {
+    color: var(--grey);
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+
+}
+
 @media screen and (min-width:768px) {
     #words_img {
         display: flex;
@@ -109,6 +139,7 @@ h1 {
         background-position: bottom;
         margin-top: 0rem;
         position: relative;
+        width: 45%;
         z-index: 0;
     }
 
@@ -157,7 +188,70 @@ h1 {
         width: 60%;
     }
 
+    #stats {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0rem 4rem 0rem 4rem;
+
+    }
+}
+
+@media screen and (min-width:1300px) {
+    #content {
+        max-width: 1110px;
+    }
+
+    h1 {
+        font-size: 72px;
+        width: 650px;
+        top: -3rem;
+        line-height: 5rem;
+    }
+
+    #top-area {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #curved_line {
+
+        width: 18rem;
+        top: -5.8rem;
+        left: 19rem;
+
+    }
+
+    #stats {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0rem 4rem 0rem 4rem;
+
+    }
+
     #img-section {
-        width: 45%;
+        height: 600px;
+        width: 40%;
+    }
+
+    #solution {
+        width: 60%;
+    }
+
+    .top-text {
+        line-height: 1.9rem;
+        font-size: 1.1rem;
+        padding-right: 10rem;
+        margin-top: 9rem;
+
+    }
+
+    .stat {
+        text-align: left;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+
     }
 }
