@@ -125,6 +125,33 @@ h1 {
 
 }
 
+#middle-area {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dark-color);
+    border-radius: 1rem;
+    align-items: center;
+}
+
+
+#middle-words h2,
+p {
+    color: var(--white);
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#second-slash {
+    width: 49px;
+    height: 40px;
+    margin-top: 4rem;
+}
+
 @media screen and (min-width:768px) {
     #words_img {
         display: flex;
