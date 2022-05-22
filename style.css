@@ -259,6 +259,10 @@ h2 {
         padding: 0rem 4rem 0rem 4rem;
 
     }
+
+    #middle-area {
+        margin-top: 18rem;
+    }
 }
 
 @media screen and (min-width:1300px) {
