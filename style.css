@@ -357,4 +357,9 @@ h2 {
     #middle-area {
         flex-direction: row;
     }
+
+    #second-slash {
+
+        margin-top: 0rem;
+    }
 }
