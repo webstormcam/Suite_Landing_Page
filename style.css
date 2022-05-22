@@ -138,6 +138,7 @@ h1 {
     border-radius: 1rem;
     align-items: center;
     margin-top: 15rem;
+    position: relative;
 }
 
 
@@ -175,6 +176,17 @@ h2 {
     margin-top: 1rem;
     letter-spacing: 0.1rem;
 
+}
+
+#img-area {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -13rem;
+}
+
+#jeremy {
+    width: 252px;
 }
 
 @media screen and (min-width:768px) {
