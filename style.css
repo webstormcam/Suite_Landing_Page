@@ -288,6 +288,13 @@ h2 {
 }
 
 @media screen and (min-width:1300px) {
+
+    main {
+
+        overflow-x: visible;
+    }
+
+
     #content {
         max-width: 1110px;
     }
@@ -345,5 +352,9 @@ h2 {
         margin-top: 3rem;
         margin-bottom: 3rem;
 
+    }
+
+    #middle-area {
+        flex-direction: row;
     }
 }
