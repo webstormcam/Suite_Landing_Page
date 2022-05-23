@@ -362,4 +362,18 @@ h2 {
 
         margin-top: 0rem;
     }
+
+    #jeremy {
+        width: 252px;
+        z-index: 10;
+        position: relative;
+        top: 0rem;
+    }
+
+
+
+    #blur {
+        position: absolute;
+
+    }
 }
