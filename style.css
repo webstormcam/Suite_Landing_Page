@@ -210,6 +210,27 @@ h2 {
 footer {
     display: flex;
     flex-direction: column;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+#bottom-suite {
+    width: 5rem;
+}
+
+#copy {
+    color: #49566D;
+
+    font-family: 'Epilogue', sans-serif;
+    margin-top: 2rem;
+}
+
+#socials {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 125px;
+    justify-content: space-evenly;
 }
 
 
