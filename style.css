@@ -207,6 +207,11 @@ h2 {
 
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 
