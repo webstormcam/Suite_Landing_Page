@@ -42,6 +42,12 @@ header {
     font-weight: bold;
 }
 
+.beta_button:hover {
+    color: #fff;
+    background-color: var(--dark-color);
+
+}
+
 
 main {
     margin-top: 5rem;
@@ -105,7 +111,16 @@ h1 {
     color: var(--white);
     background-color: var(--dark-color);
     padding: 1.2rem 2rem 1.2rem 2rem;
+    border: none;
+
 }
+
+.main-button:hover {
+    background-image: linear-gradient(to bottom right, #a060ff, #cB30E3, #FFA84E);
+    border: none;
+
+}
+
 
 #stats {
     display: flex;
@@ -234,6 +249,11 @@ h2 {
     flex-direction: row;
     width: 125px;
     justify-content: space-evenly;
+}
+
+.social:hover {
+    cursor: pointer;
+    fill: red;
 }
 
 
