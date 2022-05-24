@@ -256,6 +256,10 @@ h2 {
     fill: red;
 }
 
+svg:hover {
+    filter: invert(0.5)
+}
+
 
 
 
