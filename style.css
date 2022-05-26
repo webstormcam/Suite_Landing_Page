@@ -18,9 +18,14 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 1rem;
-    padding-top: 2rem;
+    /* padding: 1rem;
+    padding-top: 2rem; */
     background-color: #FAF8F6;
+}
+
+#content {
+    position: relative;
+    overflow: hidden;
 }
 
 header {
@@ -152,16 +157,7 @@ h1 {
 
 }
 
-#middle-area {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--dark-color);
-    border-radius: 1rem;
-    align-items: center;
-    margin-top: 15rem;
-    position: relative;
 
-}
 
 
 #middle-words h2,
@@ -228,7 +224,7 @@ h2 {
 #footer-items {
     display: flex;
     flex-direction: column;
-    margin-top: 3rem;
+    padding-top: 6rem;
     align-items: center;
 }
 
@@ -259,6 +255,34 @@ h2 {
 svg:hover {
     filter: invert(0.5)
 }
+
+#middle-site {
+
+
+    width: 100%;
+
+    height: 60rem;
+    overflow: hidden;
+}
+
+#middle-area {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dark-color);
+    border-radius: 1rem;
+    align-items: center;
+    margin-top: 15rem;
+    position: absolute;
+    top: 66rem;
+
+
+}
+
+footer {
+    height: 15rem;
+    background-color: red;
+}
+
 
 
 
