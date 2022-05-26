@@ -18,9 +18,14 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 1rem;
+    /* padding: 1rem; */
     padding-top: 2rem;
     background-color: #FAF8F6;
+}
+
+#content {
+    /* max-width: 1110px; */
+    width: 100%;
 }
 
 header {
@@ -29,7 +34,7 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    max-width: 1110px;
+    /* max-width: 1110px; */
 }
 
 .beta_button {
@@ -223,6 +228,11 @@ h2 {
 
 }
 
+footer {
+    background-color: var(--cream);
+    width: 100%;
+}
+
 
 
 #footer-items {
@@ -307,7 +317,7 @@ svg:hover {
     }
 
     #content {
-        max-width: 778px;
+        /* max-width: 778px; */
         padding: 0.8rem;
     }
 
@@ -377,7 +387,7 @@ svg:hover {
 
 
     #content {
-        max-width: 1110px;
+        /* max-width: 1110px; */
     }
 
     h1 {
