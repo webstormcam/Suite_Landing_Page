@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     width: 100%;
 
-    background-color: #FAF8F6;
+    background-color: #fff;
 
 }
 
@@ -297,7 +297,6 @@ svg:hover {
 
 footer {
     height: 17rem;
-    background-color: red;
     margin-top: 2rem;
 }
 
@@ -436,7 +435,6 @@ footer {
 
     footer {
         height: 35rem;
-        background-color: red;
         width: 100%;
         display: flex;
         align-items: flex-end;
@@ -554,6 +552,7 @@ footer {
         flex-direction: row;
         justify-content: space-around;
         height: 545px;
+        top: 55rem;
         max-width: 1150px;
     }
 
@@ -632,6 +631,11 @@ footer {
 
     #middle-area {
         margin-top: 11.5rem;
+    }
+
+    #footer-items {
+        padding: 0rem 0rem 4rem 0em;
+        max-width: 1150px;
     }
 
 
