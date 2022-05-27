@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     width: 100%;
 
-    background-color: #FAF8F6;
+    background-color: #fff;
 
 }
 
@@ -39,7 +39,10 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    /* max-width: 1110px; */
+    max-width: 1110px;
+    padding: 1rem;
+
+
 }
 
 .beta_button {
@@ -61,7 +64,8 @@ header {
 
 main {
     margin-top: 5rem;
-    overflow-x: hidden;
+    padding: 0rem 1rem 0rem 1rem;
+
 }
 
 #words_img {
@@ -285,6 +289,7 @@ svg:hover {
     margin-top: 15rem;
     position: absolute;
     top: 70rem;
+    font-family: 'Epilogue', sans-serif;
 
 
 
@@ -292,7 +297,6 @@ svg:hover {
 
 footer {
     height: 17rem;
-    background-color: red;
     margin-top: 2rem;
 }
 
@@ -419,20 +423,22 @@ footer {
         background-color: var(--dark-color);
         border-radius: 1rem;
         align-items: center;
-        margin-top: 15rem;
+        margin-top: 18rem;
         position: absolute;
         top: 50rem;
+        width: 90%;
+        max-width: 735px;
+
 
 
     }
 
     footer {
         height: 35rem;
-        background-color: red;
         width: 100%;
         display: flex;
         align-items: flex-end;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     #content {
@@ -449,8 +455,20 @@ footer {
         flex-direction: row;
         justify-content: space-between;
         width: 100%;
-        align-content: center;
-        padding-bottom: 2rem;
+        padding: 0rem 2.5rem 2.5rem 2.5rem;
+
+
+        max-width: 800px;
+    }
+
+    header {
+        padding: 2.5rem;
+        max-width: 800px;
+    }
+
+    main {
+        padding: 0rem 2.5rem 0rem 2.5rem;
+        max-width: 800px;
     }
 
 }
@@ -460,11 +478,19 @@ footer {
     main {
 
         overflow-x: visible;
+        max-width: 1150px;
+        padding: 0rem;
     }
 
 
     #content {
         /* max-width: 1110px; */
+    }
+
+    header {
+        max-width: 1150px;
+        padding-left: 0rem;
+        padding-right: 0rem;
     }
 
     h1 {
@@ -526,6 +552,8 @@ footer {
         flex-direction: row;
         justify-content: space-around;
         height: 545px;
+        top: 55rem;
+        max-width: 1150px;
     }
 
     #second-slash {
@@ -594,7 +622,20 @@ footer {
     footer {
 
         width: 100%;
+        height: 25rem;
+    }
 
+    #middle-site {
+        height: 26rem;
+    }
+
+    #middle-area {
+        margin-top: 11.5rem;
+    }
+
+    #footer-items {
+        padding: 0rem 0rem 4rem 0em;
+        max-width: 1150px;
     }
 
 
