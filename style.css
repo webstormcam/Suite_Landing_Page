@@ -480,11 +480,19 @@ footer {
     main {
 
         overflow-x: visible;
+        max-width: 1150px;
+        padding: 0rem;
     }
 
 
     #content {
         /* max-width: 1110px; */
+    }
+
+    header {
+        max-width: 1150px;
+        padding-left: 0rem;
+        padding-right: 0rem;
     }
 
     h1 {
@@ -546,6 +554,7 @@ footer {
         flex-direction: row;
         justify-content: space-around;
         height: 545px;
+        max-width: 1150px;
     }
 
     #second-slash {
