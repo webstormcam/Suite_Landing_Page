@@ -39,7 +39,10 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    /* max-width: 1110px; */
+    max-width: 1110px;
+    padding: 1rem;
+
+
 }
 
 .beta_button {
@@ -61,7 +64,8 @@ header {
 
 main {
     margin-top: 5rem;
-    overflow-x: hidden;
+    padding: 0rem 1rem 0rem 1rem;
+
 }
 
 #words_img {
