@@ -18,8 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* padding: 1rem;
-    padding-top: 2rem; */
+
     background-color: #FAF8F6;
 
 }
@@ -29,13 +28,18 @@ body {
     overflow: hidden;
 }
 
+#content {
+    /* max-width: 1110px; */
+    width: 100%;
+}
+
 header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    max-width: 1110px;
+    /* max-width: 1110px; */
 }
 
 .beta_button {
@@ -218,6 +222,11 @@ h2 {
     top: -13rem;
     z-index: 4;
 
+}
+
+footer {
+    background-color: var(--cream);
+    width: 100%;
 }
 
 
