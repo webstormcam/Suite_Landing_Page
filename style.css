@@ -591,15 +591,17 @@ footer {
         padding-left: 2rem;
     }
 
-<<<<<<< Updated upstream
     footer {
 
         width: 100%;
+    }
 
-=======
     #middle-site {
         height: 26rem;
->>>>>>> Stashed changes
+    }
+
+    #middle-area {
+        margin-top: 11.5rem;
     }
 
 
