@@ -424,9 +424,11 @@ footer {
         background-color: var(--dark-color);
         border-radius: 1rem;
         align-items: center;
-        margin-top: 15rem;
+        margin-top: 18rem;
         position: absolute;
         top: 50rem;
+        width: 689px;
+        max-width: 800px;
 
 
     }
@@ -455,7 +457,20 @@ footer {
         justify-content: space-between;
         width: 100%;
         align-content: center;
-        padding-bottom: 2rem;
+        padding: 0rem 2rem 2rem 2rem;
+
+
+        max-width: 800px;
+    }
+
+    header {
+        padding: 2rem;
+        max-width: 800px;
+    }
+
+    main {
+        padding: 0rem 2rem 0rem 2rem;
+        max-width: 800px;
     }
 
 }
