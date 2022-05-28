@@ -483,14 +483,13 @@ footer {
     }
 
 
-    #content {
-        /* max-width: 1110px; */
-    }
+
 
     header {
         max-width: 1150px;
         padding-left: 0rem;
         padding-right: 0rem;
+        padding-top: 1rem;
     }
 
     h1 {
