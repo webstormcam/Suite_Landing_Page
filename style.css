@@ -491,6 +491,11 @@ footer {
         max-width: 1150px;
         padding-left: 0rem;
         padding-right: 0rem;
+<<<<<<< Updated upstream
+=======
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+>>>>>>> Stashed changes
     }
 
     h1 {
